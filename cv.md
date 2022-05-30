@@ -44,7 +44,7 @@ function checkForFactor (base, factor) {
 
 ### RSSchool
 
-* [RSSchool - CV](#)
+* [RSSchool - CV](https://vvant97.github.io/rsschool-cv/cv)
 
 ## Education
 
