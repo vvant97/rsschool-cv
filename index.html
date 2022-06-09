@@ -1,12 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV - Vladyslav Tyshchenko</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap">
+	<link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+	<div class="main-wrapper">
+		<header class="header">
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__list-item">
+						<a href="#skills">Skills</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#about">About me</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#projects">Projects</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#education">Education</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#code">Code</a>
+					</li>
+					<li class="menu__list-item">
+						<a href="#languages">Languages</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	
+		<main class="main">
+			<section class="welcome">
+				<img src="./images/user-pic.jpg" alt="Vladislav Tyshchenko" class="welcome__picture">
+				<p class="welcome__text">Howdy, I'm Vlad</p>
+				<h1 class="welcome__title">Front-End Developer</h1>
+				<div class="welcome__btn-wrapper">
+					<button class="btn welcome__btn">
+						<a href="#projects">Go to projects</a>
+					</button>
+					<button class="btn welcome__btn">
+						<a href="https://github.com/vvant97">Go to Github</a>
+					</button>
+				</div>
+			</section>
+	
+			<section class="skills" id="skills">
+				<h2 class="title">Tools</h2>
+				<ul class="skills__list">
+					<li class="skills__list-item">HTML</li>
+					<li class="skills__list-item">CSS</li>
+					<li class="skills__list-item">Bootstrap</li>
+					<li class="skills__list-item">BEM</li>
+					<li class="skills__list-item">Npm</li>
+					<li class="skills__list-item">Gulp</li>
+					<li class="skills__list-item">Git</li>
+					<li class="skills__list-item">Github</li>
+				</ul>
+			</section>
+	
+			<section class="about" id="about">
+				<h2 class="title">About me</h2>
+				<p class="about__text">
+					I have a huge marketing experience and I lead an E-commerce project now. However, I want to become a Frontend Developer, because now I realize that I really passionate about this profession. I`m crazy about learning new technologies and trying to create some web applications from scratch, but I admit that I have not enough skills to create something really great. I definitely admire projects that professional web developers can do and it`s one of the reasons that drives me on my dev way.
+				</p>
+			</section>
+	
+			<section class="projects" id="projects">
+				<h2 class="title">Recent projects</h2>
+				<div class="projects__project-wrapper">
+					<p class="project__technologies">HTML, CSS</p>
+					<h3 class="title">RSSchool CV</h3>
+					<p class="project__description">
+	
+					</p>
+					<button class="btn">
+						<a href="#">Go to project</a>
+					</button>
+				</div>
+			</section>
+	
+			<section class="education" id="education">
+				<h2 class="title">Education</h2>
+				<table class="education__table">
+					<thead>
+						<tr class="education__table-row">
+							<th class="education__table-header">Year</th>
+							<th class="education__table-header">What's include</th>
+							<th class="education__table-header">Source</th>
+						</tr>
+					</thead>
+	
+					<tbody>
+						<tr class="education__table-row">
+							<td class="education__table-data">2021</td>
+							<td class="education__table-data">Computer science, Master</td>
+							<td class="education__table-data">V.О. Sukhomlynskyi National University of Mykolaiv</td>
+						</tr>
+						<tr class="education__table-row">
+							<td class="education__table-data">2022</td>
+							<td class="education__table-data">Front-end (exclude Javascript)</td>
+							<td class="education__table-data">Udemy</td>
+						</tr>
+						<tr class="education__table-row">
+							<td class="education__table-data">2022</td>
+							<td class="education__table-data">Git & Github</td>
+							<td class="education__table-data">Udemy</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+	
+			<section class="code" id="code">
+				<h2 class="title">Code example</h2>
+				<pre>
+					<code>
+						function checkForFactor (base, factor) {
+							&nbsp &nbsp if (base%factor == 0 && base >= 0 && factor >= 0){
+								&nbsp &nbsp &nbsp &nbsp return true;
+								&nbsp &nbsp } else return false;
+						}
+					</code>
+				</pre>
+			</section>
+	
+			<section class="languages" id="languages">
+				<h2 class="title">Languages</h2>
+				<div class="languages__language-wrapper">
+					<h3 class="languages__title">English</h3>
+					<p class="languages__description">Intermediate</p>
+				</div>
+				<div class="languages__language-wrapper">
+					<h3 class="languages__title">Russian</h3>
+					<p class="languages__description">Fluent</p>
+				</div>
+				<div class="languages__language-wrapper">
+					<h3 class="languages__title">Ukrainian</h3>
+					<p class="languages__description">Native</p>
+				</div>
+				<div class="languages__language-wrapper">
+					<h3 class="languages__title">Spanish</h3>
+					<p class="languages__description">Beginner</p>
+				</div>
+			</section>
+		</main>
+	
+		<footer class="footer">
+			<p class="copyright">©2022 by Vladyslav Tyshchenko</p>
+			<ul class="footer__list">
+				<li class="footer__list-item">
+					<a href="tel:+380633570725" class="footer__link">+38 (063) 357 07 25</a>
+				</li>
+				<li class="footer__list-item">
+					<a href="mailto:vvant97@gmail.com">vvant97@gmail.com</a>
+				</li>
+				<li class="footer__list-item">
+					<a href="https://github.com/vvant97">Github</a>
+				</li>
+			</ul>
+			<div class="footer__logo">
+				<a href="https://rs.school/js-stage0/">
+					<img src="./images/rs-logo.png" alt="RSSchool logo">
+				</a>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
