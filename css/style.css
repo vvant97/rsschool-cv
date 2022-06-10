@@ -71,6 +71,11 @@ pre {
   color: var(--secondary-color);
 }
 
+.menu__list-item a:hover {
+  text-shadow: 5px 5px black;
+  transition: 1s;
+}
+
 .main {
   margin-top: 130px;
   padding: 0 50px;
@@ -143,15 +148,6 @@ pre {
   justify-content: center;
   gap: 25px;
   margin-top: 25px;
-}
-
-.btn a {
-  text-decoration: none;
-  color: var(--dark-color);
-}
-
-.btn.btn_empty a {
-  color: var(--primary-color);
 }
 
 .btn.btn_empty svg {
@@ -373,8 +369,4 @@ thead .education__table-row {
 
 .footer__logo a img {
   width: 100%;
-}
-
-.menu__list-item a:hover {
-  text-shadow: 5px 5px black;
 }
