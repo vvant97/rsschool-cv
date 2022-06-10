@@ -1,0 +1,21 @@
+.btn {
+  padding: 15px 30px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  box-shadow: 7px 7px 10px #483d9e;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.btn_empty {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid var(--primary-color);
+}
+
+.btn_projects {
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px var(--dark-color);
+}
