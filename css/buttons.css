@@ -4,6 +4,7 @@
   background-color: var(--secondary-color);
   font-size: 20px;
   box-shadow: 7px 7px 10px #483d9e;
+  color: var(--dark-color);
 }
 
 .btn:hover {
@@ -13,6 +14,7 @@
 .btn_empty {
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn_projects {
