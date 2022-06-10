@@ -1,0 +1,19 @@
+.js-keyword {
+  color: var(--keyword);
+}
+
+.js-function {
+  color: var(--function);
+}
+
+.js-argument {
+  color: var(--argument);
+}
+
+.js-operator {
+  color: var(--operator);
+}
+
+.js-percent {
+  color: var(--percent);
+}
