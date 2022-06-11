@@ -236,6 +236,10 @@ pre {
   font-weight: 300;
 }
 
+.projects__btn-wrapper {
+  margin-top: 50px;
+}
+
 .education {
   margin-top: 150px;
 }
