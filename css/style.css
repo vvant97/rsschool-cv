@@ -216,7 +216,7 @@ pre {
   margin-top: 50px;
   padding: 50px 25% 50px 50px;
   box-shadow: 7px 7px 10px #483d9e;
-  background: url(./../assets/image/project-1.jpg) center center / cover no-repeat;
+  background: url(./../assets/image/project-1.webp) center center / cover no-repeat;
   background-color: rgba(0, 0, 0, 0.80);
   background-blend-mode: overlay;
 }
