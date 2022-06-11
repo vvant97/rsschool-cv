@@ -544,12 +544,19 @@ thead .education__table-row {
     padding: 0 15px;
   }
 
+  .welcome__picture {
+    width: 150px;
+    height: 150px;
+  }
+
   .welcome__text {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 300;
   }
 
   .welcome__title {
-    font-size: 50px;
+    font-size: 40px;
+    margin-top: 10px;
   }
 
   .welcome__btn-wrapper {
@@ -557,12 +564,19 @@ thead .education__table-row {
     align-items: center;
   }
 
+  .elements__flying-element-1 a svg,
+  .elements__flying-element-2 a svg,
+  .elements__flying-element-3 a svg {
+    width: 30px;
+    height: 30px;
+  }
+
   .skills__list-item {
     flex: 100%;
   }
 
   .skills__list-item p{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10px;
   }
 
