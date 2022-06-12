@@ -1,0 +1,11 @@
+:root {
+  --background: linear-gradient(45deg, #3923eb, #8d7ff5);
+  --secondary-color: #c2ff01;
+  --primary-color: #ffffff;
+  --dark-color: #000000;
+  --keyword: #d500ff;
+  --function: #036fff;
+  --argument: #0314f7;
+  --operator: #ff5900;
+  --percent: #ff0000;
+}
