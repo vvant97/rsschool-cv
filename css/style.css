@@ -1,8 +1,51 @@
-@import url(./variables.css);
-@import url(./titles.css);
-@import url(./buttons.css);
-@import url(./style-code.css);
-@import url(./keyframes.css);
+@import url("./variables.css");
+@import url("./titles.css");
+@import url("./buttons.css");
+@import url("./style-code.css");
+@import url("./keyframes.css");
+
+@font-face {
+  font-family: 'Londrina Outline';
+  src: url("./../assets/fonts/LondrinaOutline-Regular.eot");
+  src: url("./../assets/fonts/LondrinaOutline-Regular.eot?#iefix") format('embedded-opentype'),
+       url("./../assets/fonts/LondrinaOutline-Regular.woff") format('woff'),
+       url("./../assets/fonts/LondrinaOutline-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("./../assets/fonts/RobotoMono-Light.eot");
+  src: url("./../assets/fonts/RobotoMono-Light.eot?#iefix") format('embedded-opentype'),
+       url("./../assets/fonts/RobotoMono-Light.woff") format('woff'),
+       url("./../assets/fonts/RobotoMono-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../assets/fonts/Roboto/");
+  src: url("./../assets/fonts/Roboto/Roboto-Light.eot?#iefix") format('embedded-opentype'),
+       url("./../assets/fonts/Roboto/Roboto-Light.woff") format('woff'),
+       url("./../assets/fonts/Roboto/Roboto-Light.ttf") format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../assets/fonts/Roboto/Roboto-Medium.eot");
+  src: url("./../assets/fonts/Roboto/Roboto-Medium.eot?#iefix") format('embedded-opentype'),
+       url("./../assets/fonts/Roboto/Roboto-Medium.woff") format('woff'),
+       url("./../assets/fonts/Roboto/Roboto-Medium.ttf") format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../assets/fonts/Roboto/Roboto-Bold.eot");
+  src: url("./../assets/fonts/Roboto/Roboto-Bold.eot?#iefix") format('embedded-opentype'),
+       url("./../assets/fonts/Roboto/Roboto-Bold.woff") format('woff'),
+       url("./../assets/fonts/Roboto/Roboto-Bold.ttf") format('truetype');
+  font-weight: 700;
+}
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -216,7 +259,7 @@ pre {
   margin: 0 auto;
   margin-top: 50px;
   padding: 50px 25% 50px 50px;
-  background: url(./../assets/image/project-1.webp) center center / cover no-repeat;
+  background: url("./../assets/image/project-1.webp") center center / cover no-repeat;
   background-color: rgba(0, 0, 0, 0.80);
   background-blend-mode: overlay;
   box-shadow: 7px 7px 10px #483d9e;
